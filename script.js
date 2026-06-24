@@ -77,7 +77,7 @@ function mover(posicao) {
         container.style.left = "65%";
     }
 }
-renderizar();
+
 function atualizarProgresso() {
     const concluidas = tarefas.filter(t => t.concluida).length;
     const total = tarefas.length;
@@ -92,3 +92,5 @@ function atualizarProgresso() {
     document.getElementById("textoProgresso").textContent =
         porcentagem + "% concluído";
 }
+
+renderizar();
