@@ -95,4 +95,14 @@ function atualizarProgresso() {
         porcentagem + "% concluído";
 }
 
+function adicionarPreDefinida(texto) {
+    tarefas.push({
+        texto: texto,
+        concluida: false
+    });
+
+    salvar();
+    renderizar();
+}
+
 renderizar();
