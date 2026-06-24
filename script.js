@@ -78,3 +78,17 @@ function mover(posicao) {
     }
 }
 renderizar();
+function atualizarProgresso() {
+    const concluidas = tarefas.filter(t => t.concluida).length;
+    const total = tarefas.length;
+
+    const porcentagem = total === 0
+        ? 0
+        : Math.round((concluidas / total) * 100);
+
+    document.getElementById("barraProgresso").style.width =
+        porcentagem + "%";
+
+    document.getElementById("textoProgresso").textContent =
+        porcentagem + "% concluído";
+}
