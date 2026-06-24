@@ -58,6 +58,4 @@ function remover(index) {
     salvar();
     renderizar();
 }
-
 renderizar();
-console.log("script rodou");
