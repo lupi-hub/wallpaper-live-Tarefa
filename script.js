@@ -65,7 +65,7 @@ function mover(posicao) {
     container.style.transform = "translateY(-50%)";
 
     if (posicao === "left") {
-        container.style.left = "10%";
+        container.style.left = "2.5%";
     }
 
     if (posicao === "center") {
@@ -74,7 +74,7 @@ function mover(posicao) {
     }
 
     if (posicao === "right") {
-        container.style.left = "90%";
+        container.style.left = "65%";
     }
 }
 renderizar();
