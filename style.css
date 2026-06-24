@@ -21,9 +21,8 @@ body {
 
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
 
-    left: 50%; /* padrão: centro */
     transform: translate(-50%, -50%);
 
     transition: all 0.3s ease;
@@ -40,4 +39,15 @@ li {
 .concluida {
     text-decoration: line-through;
     color: gray;
+}
+
+.controls {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+
+    display: flex;
+    gap: 10px;
 }

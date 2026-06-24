@@ -58,4 +58,23 @@ function remover(index) {
     salvar();
     renderizar();
 }
+
+function mover(posicao) {
+    const container = document.querySelector(".container");
+
+    container.style.transform = "translateY(-50%)";
+
+    if (posicao === "left") {
+        container.style.left = "10%";
+    }
+
+    if (posicao === "center") {
+        container.style.left = "50%";
+        container.style.transform = "translate(-50%, -50%)";
+    }
+
+    if (posicao === "right") {
+        container.style.left = "90%";
+    }
+}
 renderizar();
