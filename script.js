@@ -60,3 +60,4 @@ function remover(index) {
 }
 
 renderizar();
+console.log("script rodou");
