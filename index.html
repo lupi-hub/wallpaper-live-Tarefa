@@ -15,8 +15,13 @@
             <input type="text" id="tarefaInput" placeholder="Nova tarefa">
             <button onclick="adicionarTarefa()">Adicionar</button>
         </div>
+    <div class="progresso-container">
+    <div id="barraProgresso"></div>
+    </div>
 
-        <ul id="listaTarefas"></ul>
+    <p id="textoProgresso">0% concluído</p>
+
+    <ul id="listaTarefas"></ul>
 
     </div>
 
@@ -25,12 +30,6 @@
     <button onclick="mover('center')">Centro</button>
     <button onclick="mover('right')">Direita</button>
     </div>
-
-    <div class="progresso-container">
-    <div id="barraProgresso"></div>
-    </div>
-
-    <p id="textoProgresso">0% concluído</p>
 
     <script src="script.js"></script>
 </body>

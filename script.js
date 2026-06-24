@@ -27,6 +27,8 @@ function renderizar() {
 
         lista.appendChild(li);
     });
+
+    atualizarProgresso(); // <- ADICIONA ESTA LINHA
 }
 
 function adicionarTarefa() {
