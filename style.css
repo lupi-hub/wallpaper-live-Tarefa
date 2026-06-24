@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}
